@@ -1,0 +1,140 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h> 
+#include <string.h>
+//常量
+//1.字面常量
+//2.const
+//3.#define
+//4.枚举常量
+ 
+
+//int main()
+//{	//const - 常属性
+//	//const修饰的常变量
+//	//const int num = 4;
+//	//printf("%d\n", num);
+//	///*num = 8;*/
+//	//printf("%d\n", num);
+//
+//	const int n = 10;//n是变量，但是又有常属性，所以我们说n是常变量。
+//
+//	int arr[n] = { 0 };
+//	return 0;
+//}
+
+//#define MAX 10
+//int main(){
+//	//#define 定义的标识符常量
+//	int arr[MAX] = { 0 };
+//	return 0;
+//}
+
+
+//枚举关键字 - enum
+//enum Sex
+//{
+//	male,
+//	female,
+//	secret
+//};
+//enum Color
+//{
+//	red,
+//	yellow,
+//	blue
+//};
+//int main(){
+//	enum Sex s = female;
+//	enum Color color = red;
+//
+//
+//
+//	return 0;
+//}
+
+////字符串
+//'\0' - 转义字符
+//int main(){
+//	//数据在计算机上存储的时候，存储的是2进制
+//	char arr1[] = "abc";
+//	//"abc" -- 'a' 'b' 'c' '\0' --- '/0'是字符串的结束标志
+//	char arr2[] = { 'a','b','c'};
+//	//'\0' - 0
+//	// 'a' - 97
+//	//'a' - 65 ----------ascii 编码 - ascii码值
+//	printf("%s\n", arr1);
+//	printf("%s\n", arr2);
+//	printf("%d\n", strlen(arr1));//strlen - 计算字符串长度
+//	printf("%d\n", strlen(arr2));
+//	return 0;
+//}
+//if语句
+//int main(){
+//	int input = 0;
+//	printf("加入比特\n");
+//	printf("你要好好学习吗？\n(1/0)>:");
+//	scanf("%d", &input);
+//	if (input == 1)
+//		printf("好offer\n");
+//	else
+//		printf("卖红薯\n");
+//	return 0;
+//}
+//while循环
+//int main(){
+//	int line = 0;
+//	
+//	printf("加入比特\n");
+//
+//	while (line >= 20000){
+//		printf("敲一行代码:%d\n",line);
+//		line++;
+//	}
+//	if (line >= 20000){
+//		printf("好offer\n");
+//	}
+//	return 0;
+//}
+//函数（自定义函数）
+//int Add(int x, int y){
+//	int z = x + y;
+//	return z;
+//}
+//int main(){
+//	int num1 = 10;
+//	int num2 = 100;
+//	int sum = 0;
+//	int a = 100;
+//	int b = 200;
+//	sum = Add(num1, num2);
+//	sum = Add(a, b);
+//	printf("sum  = %d\n", sum);
+//	return 0;
+//}
+//数组(一组相同类型的集合)
+//int main(){
+//	int arr1[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };//下标默认从0开始
+//	//printf("%d\n", arr1[6]);
+//	int i = 0;
+//	while (i < 10){
+//		printf("%d \n", arr1[i]);
+//		i++;
+//	}
+//	return 0;
+//}
+
+//操作符
+int main(){
+//移位运算符（二进制）
+	//int a = 1;//占32个bit位
+	//int b = a << 2;
+	//printf("%d\n", b);
+//位操作（2进制）
+	// &按位与 // |按位或 // ^按位异或
+	//异或的计算规律：对应的二进制位相同，则为0，相异为1.
+//复合赋值符
+//单目操作符--双目操作符--三目操作符
+	
+	return 0;
+
+}
